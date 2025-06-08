@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Active Step</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container mt-4">
+    <h1 class="text-center mb-4">ACTIVE STEP</h1>
+
+    <div id="carouselExampleIndicators" class="carousel slide mb-5" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img11.png" class="d-block w-100" class="d-block w-100 carousel-img-fit">
+        </div>
+        <div class="carousel-item">
+          <img src="img2.png.jpg" class="d-block w-100" class="d-block w-100 carousel-img-fit">
+        </div>
+        <div class="carousel-item">
+          <img src="img3.png.jpg" class="d-block w-100" class="d-block w-100 carousel-img-fit">
+        </div>
+        <div class="carousel-item">
+          <img src="img10.png" class="d-block w-100" class="d-block w-100 carousel-img-fit">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </button>
+    </div>
+
+    <!-- Productos -->
+    <div class="row" id="productos">
+      <!-- Productos se cargarán aquí con JS -->
+    </div>
+
+    <!-- Carrito -->
+    <h2 class="mt-5">Carrito</h2>
+    <table class="table" id="carrito">
+      <thead>
+        <tr>
+          <th>Producto</th>
+          <th>Cantidad</th>
+          <th>Precio</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Elementos del carrito -->
+      </tbody>
+    </table>
+    <h3 id="total">Total: $0</h3>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>

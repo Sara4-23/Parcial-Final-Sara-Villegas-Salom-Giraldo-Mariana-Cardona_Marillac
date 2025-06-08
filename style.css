@@ -1,0 +1,55 @@
+.carousel-item img {
+    height: 550px; 
+    width: 100%;
+    object-fit: contain; 
+    object-position: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(162, 123, 245, 0.64);
+}
+
+
+.carousel {
+    max-width: 900px; 
+    margin: 0 auto; 
+}
+
+body {
+  background-color: #ddeaf6;
+  font-family: cursive;
+}
+
+h1, h2 {
+  color: #6f42c1;
+  font-family: cursive;
+}
+
+
+.card {
+  box-shadow: 0 4px 8px rgba(162, 123, 245, 0.64);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.btn-primary {
+  background-color: #6f42c1;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #5936a3;
+}
+
+#carrito table {
+  background-color: rgb(186, 198, 245);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+#total {
+  color: #198754;
+  font-weight: bold;
+  margin-top: 1rem;
+}
